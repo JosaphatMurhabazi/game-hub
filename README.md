@@ -15,20 +15,27 @@ GameHub is a React application built with TypeScript that fetches and displays a
 To get started with GameFetch, follow these steps:
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/JosaphatMurhabazi/game-hub.git
 ```
+
 2.Navigate to the project directory:
+
 ```bash
 cd GAME-HUB
 ```
+
 3. Install the dependencies:
+
 ```bash
 npm install
 ```
+
 4. Start the development server:
+
 ```bash
-npm start
+npm run dev
 ```
 
 ## Usage
