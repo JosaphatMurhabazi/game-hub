@@ -12,7 +12,7 @@ GameHub is a React application built with TypeScript that fetches and displays a
 
 ## Installation
 
-To get started with GameFetch, follow these steps:
+To get started with GameHub, follow these steps:
 
 1. Clone the repository:
 
