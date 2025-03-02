@@ -20,7 +20,7 @@ To get started with GameHub, follow these steps:
 git clone https://github.com/JosaphatMurhabazi/game-hub.git
 ```
 
-2.Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```bash
 cd GAME-HUB
