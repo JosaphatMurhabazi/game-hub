@@ -1,4 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
+import ms from 'ms';
 import { GameQuery } from '../App';
 import APIClient, { FetchResponse } from '../services/api-client';
 import { Platform } from './usePlatforms';
@@ -26,7 +27,7 @@ const useGames = (gameQuery: GameQuery) =>
           search: gameQuery.searchText,
         },
       }),
-    staleTime: 24 * 60 * 60 * 1000, //24h
+    staleTime: ms('24h'),
   });
 
 export default useGames;
