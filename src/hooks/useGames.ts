@@ -20,12 +20,13 @@ const useGames = (gameQuery: GameQuery) =>
     queryFn: () =>
       apiClient.getAll({
         params: {
-          genres: gameQuery.genre?.id,
-          parent_platforms: gameQuery.platform?.id,
+          genres: gameQuery.genreId,
+          parent_platforms: gameQuery.platformId,
           ordering: gameQuery.sortOrder,
           search: gameQuery.searchText,
         },
       }),
+    staleTime: 24 * 60 * 60 * 1000, //24h
   });
 
 export default useGames;
